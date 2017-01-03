@@ -14,8 +14,8 @@ install:
 # Post-install test sctipts
 test_script:
   # Output useful into for debugging.
-  -node --version
-  -npm --version
+  - node --version
+  - npm --version
   # run tests
   - npm test
 
